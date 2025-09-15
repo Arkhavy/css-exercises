@@ -23,3 +23,25 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* ************************************************************************** */
+/*                                   FLEXBOX                                  */
+/* ************************************************************************** */
+.header,
+ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	margin: 10px;
+}
+
+.logo {
+	margin: 10px;
+}
